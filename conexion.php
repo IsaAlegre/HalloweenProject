@@ -8,7 +8,7 @@ function conectar()
     // --- Configura estos parámetros según tu instalación de WAMP/MySQL ---
     $host = "localhost";
     $user = "root";
-    $password = "0405"; 
+    $password = ""; 
     $database = "halloween";
     
     $con = mysqli_connect($host, $user, $password, $database);
